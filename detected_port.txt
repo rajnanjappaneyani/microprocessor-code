@@ -1,9 +1,9 @@
 {
-    "port": "COM3",
-    "description": "USB-SERIAL CH340 (COM3)",
+    "port": "COM8",
+    "description": "USB-SERIAL CH340 (COM8)",
     "manufacturer": "wch.cn",
     "product": null,
-    "hwid": "USB VID:PID=1A86:7523 SER= LOCATION=1-1",
+    "hwid": "USB VID:PID=1A86:7523 SER= LOCATION=1-2",
     "vid": 6790,
     "pid": 29987,
     "serial_number": ""

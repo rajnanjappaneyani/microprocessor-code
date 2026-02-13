@@ -1,0 +1,1 @@
+C:\Users\text2\Desktop\microprocessor-code\foreground\target\debug\foreground.exe: C:\Users\text2\Desktop\microprocessor-code\foreground\src\main.rs C:\Users\text2\Desktop\microprocessor-code\foreground\src\pythonspawn.rs

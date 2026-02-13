@@ -17,16 +17,18 @@ its sofware for autonomouse car
 4) Build the image (recreates the same environment)
 docker build -t rust-python .
 
-5) run 
-python com_window_code/main.py
-
-6) Run the container with the repo mounted
+5) Run the container with the repo mounted
 Windows PowerShell
 docker run --rm -p 8080:80 -p 8081:81 -p 8082:82 -p 8083:83 -p 8084:84 -it -v "${PWD}:/work" -w /work rust-python bash
 
-
 macOS/Linux
 docker run --rm -p 8080:80 -p 8081:81 -p 8082:82 -p 8083:83 -p 8084:84 -it -v "$(pwd):/work" -w /work rust-python bash
+
+
+6) run 
+python com_window_code/main.py
+
+
 
 
 
